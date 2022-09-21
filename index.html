@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Book Library</title>
+  </head>
+  <body>
+    
+
+      <div class="modal">
+        <form  class ="my-form" action="#">
+          <div class="form-container">
+           
+                <div class="addabook">
+                    Add A Book
+                </div>
+
+                <label class="form-content" for="bookname"> Book Name: </label>
+                <input class="form-content" id="book-name" type="text" />
+           
+              <label class="form-content" for="bookauthor">Author: </label>
+              <input class="form-content" id="book-author" type="text" />
+         
+              <label class="form-content" for="pages"> Pages: </label>
+              <input class="form-content"  id = "book-pages" type="number" />
+              <input  type="checkbox" />
+              <label class="" for="readstatus"> I have read this book? </label>
+              <label for="submit"></label>
+              <button class="button book-add-button form-content">Add</button>
+              
+           
+        </form>
+          </div>
+        
+      </div>
+    
+
+    <div class="container">
+      <div class="header">
+        <h1>My Library</h1>
+      </div>
+      <div class="content">
+        <div class="add-book-div">
+          <div class="button new-book">Add Book</div>
+          <hr />
+        </div>
+        <div class="book-list">
+          <div class="book-card">
+            <div class="book-title">Lord of the Rings</div>
+            <div class="book-by">By</div>
+            <div class="book-author">J.R.R Tolkien</div>
+            <div class="book-pages">Pages: 723</div>
+            <div class="toggle-switch">
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="book-card">
+            <div class="book-title">Lord of the Rings</div>
+            <div class="book-by">By</div>
+            <div class="book-author">J.R.R Tolkien</div>
+            <div class="book-pages">Pages: 723</div>
+            <div class="toggle-switch">toggle switch will be here</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
